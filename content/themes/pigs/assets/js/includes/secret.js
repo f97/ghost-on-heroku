@@ -1,0 +1,2 @@
+var linkpreview_key = '5b439c179073fae7b9928e83dc64e969bd01b9562d693';
+var meetup_key = '102a1f754e40304f6d165b295053579';
