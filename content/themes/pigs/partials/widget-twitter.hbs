@@ -1,0 +1,31 @@
+<!-- start widget -->
+<div class="widget" style="order:10">
+	<div class="twitter">
+		<h4 class="title">Twitter</h4>
+		<a class="twitter-timeline"
+			data-chrome="noheader noborders transparent nofooter noscrollbar"
+			data-link-color="#0db0e2"
+			data-dnt="true"
+			data-widget-id="twitter"
+				data-tweet-limit="5"
+			href="https://twitter.com/HackersSlackers/lists/hackers-and-slackers"></a>
+	</div>
+	<script src="/assets/js/includes/customtwitter.js"></script>
+	<script>
+		$('document').ready(function(){
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+				if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
+				js.src="//platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js,fjs);}
+			}(document,"script","twitter-wjs");
+
+			var options = {
+				"url": '/assets/css/maintwitter.css'
+			};
+
+			CustomizeTwitterWidget(options);
+		});
+
+	</script>
+</div>
+<!-- end widget -->
