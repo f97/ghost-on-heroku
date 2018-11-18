@@ -9,3 +9,8 @@ cat "config.production.json"
 bin/wait-for-db
 
 knex-migrator init --mgpath node_modules/ghost
+
+cd /content/themes/pig
+npm install
+npm install -g gulp-cli
+gulp
