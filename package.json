@@ -13,7 +13,8 @@
     "casper": "github:tryghost/Casper#2.3.3",
     "ghost": "^2.6.0",
     "ghost-storage-cloudinary": "^1.1.2",
-    "mysql": "^2.14.1"
+    "mysql": "^2.14.1",
+    "dotenv": "^6.1.0"
   },
   "engines": {
     "node": "8.x.x"

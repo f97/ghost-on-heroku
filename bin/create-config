@@ -4,6 +4,7 @@
 var fs = require('fs');
 var path = require('path');
 var url = require('url');
+require('dotenv').config();
 
 var envValues = require('./common/env-values');
 var appRoot = path.join(__dirname, '..');
