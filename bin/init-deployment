@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo npm install -g gulp-cli
+npm install -g gulp-cli
 
 echo "Initializing the deployment…"
 echo "pwd →"
