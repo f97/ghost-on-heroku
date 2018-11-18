@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo npm install -g gulp-cli
+
 echo "Initializing the deployment…"
 echo "pwd →"
 pwd
@@ -12,5 +14,4 @@ knex-migrator init --mgpath node_modules/ghost
 
 cd /content/themes/pig
 npm install
-npm install -g gulp-cli
 gulp
